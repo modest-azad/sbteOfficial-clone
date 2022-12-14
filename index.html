@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="src/fav-icons/" />
+    <link rel="icon" type="image/png" sizes="96x96" href="src/fav-icons//favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="src/fav-icons//favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>SBTE - Bihar Clone</title>
+  </head>
+  <body>
+    <!-- main container :BODY -->
+    <div class="main-container body">
+      <!-- Head Line -->
+      <div class="header grid columns-12">
+        <img
+          src="src/sbte-logo.png"
+          alt="sbte-online"
+          width="100px"
+          class="col-start-3 col-end-4"
+        />
+        <div class="headline font-bold col-start-7 col-end-13 self-center">
+          STATE BOARD OF TECHNICAL EDUCATION - BIHAR
+        </div>
+      </div>
+
+      <!-- row-1  -->
+      <div class="row-1 grid grid-cols-12">
+        <a href="src/UserManual.pps" download class="text-blue-800 col-start-2"
+          >User Manual</a
+        >
+        <a
+          href="src/UserManual.pps"
+          download
+          class="text-blue-800 col-start-4 col-end-7"
+          >Download Syllabus of All Semester</a
+        >
+        <a
+          href="src/UserManual.pps"
+          download
+          class="text-blue-800 col-start-7 col-end-8"
+          >Question Bank</a
+        >
+        <p class="col-start-9 col-end-13">
+          For any query mail to
+          <a href="src/UserManual.pps" download class="text-blue-800"
+            >infosbteonline@gmail.com</a
+          >
+        </p>
+      </div>
+
+      <marquee
+        class="head-notice"
+        behavior="scroll"
+        direction="left"
+        SCROLLDELAY="150"
+      >
+        <a
+          >This is un-official SBTE- online webpage, created by @mdazad for
+          practice purpose.</a
+        >
+      </marquee>
+
+      <!-- Big-row-2  -->
+      <div class="row-2 container-2 grid grid-rows-3 grid-cols-12 gap-10">
+
+        <div
+          class="result-row row-start-1 row-end-2 col-start-1 col-end-13 text-center"
+        >
+          <input type="text" name="roll-number" placeholder="Enter your roll number" />
+          <button>Get Result</button>
+          <p>
+            Result of Sem-IV (Old Syllabus, Branch- Civil Engg., Held jin
+            Nov-2022,
+          </p>
+        </div>
+
+
+        <div class="content col-start-1 col-span-7 row-start-2 row-end-3">
+          <h1>SBTE - Bihar, Patna</h1>
+          <p>
+            is responsible for evaluation and certification of six - semester
+            Diploma Courses of all the Polytechnic Institutions affiliated to
+            the Bihar Board. It has been constituted vide govt. order no. 75/Dir
+            dated 31st May, 1955 under the Department of Science & Technology,
+            Government of Bihar. Since its formation the board is striving
+            continuously for betterment of academic standard of Polytechnic
+            Institutions of this State.
+          </p>
+        </div>
+
+        <!-- notice area  -->
+        <div class="notice col-start-8 col-end-13 row-start-2 row-end-3">
+          <h1>Notice Board</h1>
+          <marquee behavior="scroll" direction="up" SCROLLDELAY="300">
+            <a href="#" class="text-blue-700"
+              >1. For any assistance you may mail to: infosbteonline@gmail.com
+            </a>
+            <br />
+            <a href="#" class="text-blue-700"
+              >2. EXAM Held - Oct-2022 , Sem - VI & I/II (Old Syllabus) Online
+              forms are available for Scrutiny. </a
+            ><br />
+            <a href="#" class="text-blue-700"
+              >3. Sem - IV (Old Syllabus), Branch -Civil Engg., Result are
+              available for download ,Held in Nov-2022.
+            </a>
+          </marquee>
+        </div>
+        <div class=" login col-start-1 col-end-13">
+             <!-- user id  -->
+             <span class="uder-id">
+                <input type="text" name="user-id" placeholder="user name"> <br>
+                <a href="" class="text-blue-700">New User</a>
+             </span>
+
+             <!-- password -->
+             <span class="uder-password">
+                <input type="password" name="password" placeholder="password"> <br>
+                <a href="" class="text-blue-700">Forgot user-id / password?</a>
+             </span>
+             
+             <!-- sign in button  -->
+             <span >sign in</span>
+
+        </div>
+    </div>
+    <!-- footer   -->
+    <p class="text-center">
+      Designed and Developed with ❤ by <a class="text-blue-600" href="https://www.linkedin.com/in/mdazad2/" target="_blank">@Spotthecode (md azad)</a>
+    </p>
+    </div>
+
+  </body>
+</html>

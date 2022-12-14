@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "sf pro display", "roboto";
+    color: #1d1d1d;
+  }
+  .body {
+    width: 1280px;
+    margin: auto;
+    margin-top: 8px;
+  }
+  .header {
+    background-color: rgb(233, 241, 243);
+
+    background-color: #f3f3f3;
+    border: 0.5px solid #d6d6d6;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .headline {
+    font-size: 32px;
+    
+  }
+  .head-notice a {
+    margin: 0px 48px;
+  }
+
+  .row-1 {
+    padding: 15px;
+  }
+  .row-2 {
+    border: 0.5px solid #d6d6d6;
+    border-radius: 30px;
+    padding: 50px;
+  }
+  .content, .notice {
+    margin-top:-30px;
+  }
+  .content h1 {
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .content p {
+    color: #666666;
+  }
+
+  .result-row input {
+    border: 1px solid #666666;
+    padding: 8px 32px;
+    border-radius: 30px;
+  }
+  .result-row button {
+    background-color: #bcbcbc;
+    padding: 8px 16px;
+    border-radius: 30px;
+    margin-left: 8px;
+  }
+
+  .result-row button:hover {
+    background-color: #c7c7c7;
+  }
+  .result-row button:active {
+    background-color: #aaaaaa;
+  }
+  .result-row p {
+    padding: 12px;
+  }
+
+  .notice ul p {
+    padding: 12px 0px;
+  }
+  .notice h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 12px;
+  }
+
+
+  /* login  */
+  .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+  }
+  .login span{
+    margin-right:12px;
+  }
+  .login input{
+    border:0.5px solid #666666;
+    border-radius:10px;;
+    padding:8px;
+  }
